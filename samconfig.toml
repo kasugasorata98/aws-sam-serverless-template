@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "aws-sam-serverless-template-stack"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1r7o7ollfyrp8"
+s3_prefix = "aws-sam-serverless-template-stack"
+region = "ap-southeast-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
